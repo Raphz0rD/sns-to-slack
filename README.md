@@ -1,13 +1,17 @@
-###  SNS to Slack
+##  SNS to Slack
 
-# Lambda code written by: Mohamed Labouardy (https://read.acloud.guru/slack-notification-with-cloudwatch-alarms-lambda-6f2cc77b463a)
-# Guide by Raphael Farias de Andrade (https://github.com/Raphz0rD/sns-to-slack)
+#### Lambda code written by: Mohamed Labouardy (https://read.acloud.guru/slack-notification-with-cloudwatch-alarms-lambda-6f2cc77b463a)
 
-Prereqs:
+#### Guide by Raphael Farias de Andrade (https://github.com/Raphz0rD/sns-to-slack)
+
+
+###### Prereqs:
 
 AWS CLI previously configured
 
-Download Package: 
+Download Package: https://github.com/Raphz0rD/sns-to-slack
+
+###### Guide:
 
 1- Create SNS Topic:
 
@@ -16,6 +20,7 @@ aws sns create-topic --name <topicName> --region <awsRegion>
 2 - Configure Webhook on Slack Channel
 
 <webhookURL>
+
 Example: https://hooks.slack.com/services/ZZZZZZZZZ/YYYYYYYYYYYY/XXXXXXXXXXXXXXXXXXX
 
 3 - Configure Lambda
